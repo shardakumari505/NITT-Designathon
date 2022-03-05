@@ -2,14 +2,19 @@
     /* background-color: #DA18A3; */
     height: 170vh;
 }
+.navprofile{
+    position: fixed;
+    width: 100%;
+    z-index: 998;
+}
 .profiletopbackground{
-    position: absolute;
-    top: 0px;
-    height: 30vh;
+    /* position: absolute;
+    top: 0px; */
+    height: 40vh;
     width: 100%;
 }
 .profilebgimg{
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
 }
@@ -19,7 +24,7 @@
 }
 .profileimageimg{
     position: absolute;
-    top: 10vh;
+    top: 20vh;
     left: 42.5vw;
     height: 15vw;
     width: 15vw;

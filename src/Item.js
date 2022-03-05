@@ -5,9 +5,11 @@ import Heartblack from './heartblack.png';
 import Painting6 from './painting6.jpg';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer.js';
+import Navbar from './Navbar.js';
 
 const Item =() =>{
     return(<div className='itempage'>
+        <div className='navitem'><Navbar /></div>
             <div className='itemleft'>
                 <div className='leftimgdiv'><img className='leftimg' src={Painting6} /></div>
             </div>

@@ -1,0 +1,78 @@
+.navbarpg{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    /* background-color: aqua; */
+}
+.navbarpgtop{
+    height: 8vh;
+    width: 100%;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E3E1E3;
+    /* background-color: #EB1484; */
+}
+.navsearch{
+    height: 5vh;
+    width: 40%;
+    display: flex;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    border:2px solid #E3E1E3;
+}
+.searchicon1{
+    height: 3vh;
+    margin-top: 1vh;
+    width: 1.5vw;
+}
+.explorenav{
+    vertical-align: middle;
+    height: 3vh;
+    margin-top: 1vh;
+}
+.exploremy{
+    vertical-align: middle;
+    height: 3vh;
+    margin-top: 1vh;
+}
+.explorefollow{
+    vertical-align: middle;
+    height: 3vh;
+    margin-top: 1vh;
+}
+.connectbtndiv{
+    margin-top: 1vh;
+}
+.createbtndiv{
+    margin-top: 1vh;
+}
+.connectbtn{
+    height: 4vh;
+    width: 7vw;
+    background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.createbtn{
+    color: #DA18A3;
+    border: 2px solid #DA18A3;
+    background: transparent;
+    height: 4vh;
+    width: 7vw;
+    border-radius: 10px;
+}
+.createnav{
+    text-decoration: none;
+    color: #DA18A3;
+}
+.myitemsnav{
+    text-decoration: none;
+    color: black;
+}
+.myitemsnav:hover{
+    font-weight: 600;
+}

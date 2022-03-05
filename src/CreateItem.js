@@ -2,9 +2,11 @@ import React from 'react';
 import './CreateItem.css';
 import Image from './Image.png';
 import Footer from './Footer.js';
+import Navbar from './Navbar.js';
 
 const CreateItem =() =>{
     return(<div className='createitempage'>
+            <div className='navcreateitem'><Navbar /></div>
             <div className='createiteminside'>
                 <div className='createtitle'>Create New Item</div>
                 <div className='uploadfileitem'>

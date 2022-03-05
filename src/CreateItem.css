@@ -3,6 +3,11 @@
     width: 100%;
     /* background-color: aqua; */
 }
+.navcreateitem{
+    position: fixed;
+    width: 100%;
+    z-index: 998;
+}
 .createiteminside{
     height: 120vh;
     width: 60%;
@@ -10,6 +15,7 @@
     display: grid;
 }
 .createtitle{
+    margin-top: 12vh;
     font-size: 1.5rem;
     font-weight: bold;
 }

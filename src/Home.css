@@ -10,9 +10,14 @@
     
 }
 @media(min-width:1025px){
+    .navbarhome{
+        position: fixed;
+        width: 100%;
+        z-index: 998;
+    }
     .homepage{
         background-color: #FFFFFF;
-        height: 300vh;
+        height: 250vh;
         width: 100%;
     }
     .hometopcard{
@@ -87,6 +92,31 @@
         border-radius: 20px;
         box-sizing: border-box;
         border: 1px solid #E3E1E3;
+    }
+    .ticksellerdiv{
+        display: flex;
+    }
+    .tickdiv{
+        height: 1.2vw;
+        width: 1.2vw;
+        border-radius: 0.6vw;
+        margin-top: 9vh;
+        margin-left: -1vw;
+        z-index: 15;
+        background-color: #00B247;
+    }
+    .tickimg{
+        height: 1vw;
+        width: 1vw;
+    }
+    .topsellermarking{
+        width: 2vw;
+        height: 2vw;
+        border-radius: 1vw;
+        background-color: #DA18A3;
+        margin-top: 1vh;
+        margin-left: 0.5vw;
+        color: #FFFFFF;
     }
     .hometopsellercardimage{
         margin-top: 2vh;
@@ -276,22 +306,17 @@
         text-decoration: none;
         /* margin-left: 47.5vw; */
      } 
-    .loadbutton{
+    .loadbutton1{
         min-height: 5vh;
         min-width: 15vw;
         border: 2px solid #DA18A3;
         background-color: transparent;
-        color: black;
+        color: #DA18A3;
         text-align: center;
         font-size: 1.2rem;
         cursor: pointer;
         text-decoration: none;
         border-radius: 10px;
-    }
-    .buttona{
-        text-decoration: none;
-        color: #DA18A3;
-        font-weight: 600;
     }
     .loadbtndivb{
         position: absolute;
@@ -322,6 +347,6 @@
     .footerhomepg{
         position: absolute;
         width: 100%;
-        top: 250vh;
+        top: 235vh;
     }
 }

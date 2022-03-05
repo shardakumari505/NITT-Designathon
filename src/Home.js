@@ -17,10 +17,13 @@ import Painting7 from './painting7.jpg';
 import Painting8 from './painting8.jpg';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer.js';
+import Navbar from './Navbar.js';
+import Tick from './tick.png';
 
 
 const Home = () =>{
     return(<div className='homepage'>
+            <div className='navbarhome'><Navbar /></div>
             <div className='hometopcard'>
                 <div className='hometopellipse'></div>
                 <div className='homebottomellipse'></div>
@@ -31,7 +34,11 @@ const Home = () =>{
                 <div className='hometopsellertitle'>Top Sellers</div>
                 <div className='hometopsellercards'>
                     <div className='hometopsellerscardscards1'>
-                        <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img1} /></div>  
+                        <div className='topsellermarking'>1</div>
+                        <div className='ticksellerdiv'>
+                            <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img1} /></div>
+                            <div className='tickdiv'><img className='tickimg' src={Tick} /></div> 
+                        </div>
                         <div className='hometopsellercardtext'>Mia ayana</div> 
                         <div className='hometopsellercarddatandtext'>
                             <div className='hometopsellercarddata'>5.250</div>
@@ -39,7 +46,11 @@ const Home = () =>{
                         </div>                
                     </div>
                     <div className='hometopsellerscardscards2'>
-                        <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img2} /></div>  
+                    <div className='topsellermarking'>2</div>
+                        <div className='ticksellerdiv'>
+                            <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img2} /></div> 
+                            <div className='tickdiv'><img className='tickimg' src={Tick} /></div> 
+                        </div>
                         <div className='hometopsellercardtext'>Rian Leone</div> 
                         <div className='hometopsellercarddatandtext'>
                             <div className='hometopsellercarddata'>4.932</div>
@@ -47,7 +58,11 @@ const Home = () =>{
                         </div> 
                     </div>
                     <div className='hometopsellerscardscards3'>
-                        <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img3} /></div>  
+                        <div className='topsellermarking'>3</div>
+                        <div className='ticksellerdiv'>
+                            <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img3} /></div> 
+                            <div className='tickdiv'><img className='tickimg' src={Tick} /></div>  
+                        </div>
                         <div className='hometopsellercardtext'>Lady Old</div> 
                         <div className='hometopsellercarddatandtext'>
                             <div className='hometopsellercarddata'>4.620</div>
@@ -55,7 +70,11 @@ const Home = () =>{
                         </div> 
                     </div>
                     <div className='hometopsellerscardscards4'>
-                        <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img4} /></div>  
+                        <div className='topsellermarking'>4</div>
+                        <div className='ticksellerdiv'>
+                            <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img4} /></div> 
+                            <div className='tickdiv'><img className='tickimg' src={Tick} /></div>  
+                        </div>
                         <div className='hometopsellercardtext'>Black Glass</div> 
                         <div className='hometopsellercarddatandtext'>
                             <div className='hometopsellercarddata'>4.125</div>
@@ -63,7 +82,11 @@ const Home = () =>{
                         </div> 
                     </div>
                     <div className='hometopsellerscardscards5'>
-                        <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img5} /></div>  
+                        <div className='topsellermarking'>5</div>
+                        <div className='ticksellerdiv'>                           
+                            <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img5} /></div>  
+                            <div className='tickdiv'><img className='tickimg' src={Tick} /></div>  
+                        </div> 
                         <div className='hometopsellercardtext'>Budhiman</div> 
                         <div className='hometopsellercarddatandtext'>
                             <div className='hometopsellercarddata'>6.921</div>
@@ -167,8 +190,7 @@ const Home = () =>{
                     </div>
                 </div>
             </div>
-            <div className='loadbtndiv'><button className='loadbutton'><NavLink className='link buttona' to="/Profile">Load More</NavLink></button></div>
-            <div className='loadbtndivb'><button className='loadbutton'><NavLink className='link buttonb' to="/CreateItem">Load More</NavLink></button></div>
+            <div className='loadbtndiv'><button className='loadbutton1'>Load More</button></div>
             <div className='footerhomepg'><Footer /></div>
         </div>)
 }
