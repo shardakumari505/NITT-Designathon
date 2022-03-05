@@ -16,6 +16,7 @@ import Painting6 from './painting6.jpg';
 import Painting7 from './painting7.jpg';
 import Painting8 from './painting8.jpg';
 import { NavLink } from 'react-router-dom';
+import Footer from './Footer.js';
 
 
 const Home = () =>{
@@ -39,7 +40,7 @@ const Home = () =>{
                     </div>
                     <div className='hometopsellerscardscards2'>
                         <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img2} /></div>  
-                        <div className='hometopsellercardtext'>Rian Leon</div> 
+                        <div className='hometopsellercardtext'>Rian Leone</div> 
                         <div className='hometopsellercarddatandtext'>
                             <div className='hometopsellercarddata'>4.932</div>
                             <div className='hometopsellercarddatatext'>ETH</div> 
@@ -47,7 +48,7 @@ const Home = () =>{
                     </div>
                     <div className='hometopsellerscardscards3'>
                         <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img3} /></div>  
-                        <div className='hometopsellercardtext'>Lady Young</div> 
+                        <div className='hometopsellercardtext'>Lady Old</div> 
                         <div className='hometopsellercarddatandtext'>
                             <div className='hometopsellercarddata'>4.620</div>
                             <div className='hometopsellercarddatatext'>ETH</div> 
@@ -65,18 +66,18 @@ const Home = () =>{
                         <div className='hometopsellercardimage'><img className='hometopsellerimg' src={Img5} /></div>  
                         <div className='hometopsellercardtext'>Budhiman</div> 
                         <div className='hometopsellercarddatandtext'>
-                            <div className='hometopsellercarddata'>3.921</div>
+                            <div className='hometopsellercarddata'>6.921</div>
                             <div className='hometopsellercarddatatext'>ETH</div> 
                         </div> 
                     </div>
                 </div>
             </div>
-            <div className='hometophotbirds'>
+            <div className='hometophotbirds1'>
                 <div className='hometophotbirdstitle'>Hot bids</div>
                 <div className='homehotbirdscard'>
                     <div className='homehotbirdcardcards1'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting2} /></div>
-                        <div className='homehotbidstext'>Blue Red Art</div>
+                        <div className='homehotbidstext1'>Blue Red Art</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>0.85</div>
@@ -87,7 +88,7 @@ const Home = () =>{
                     </div>
                     <div className='homehotbirdcardcards2'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting1} /></div>
-                        <div className='homehotbidstext'>Lake Landscape</div>
+                        <div className='homehotbidstext1'>Lake Landscape</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>0.52</div>
@@ -98,7 +99,7 @@ const Home = () =>{
                     </div>
                     <div className='homehotbirdcardcards3'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting8} /></div>
-                        <div className='homehotbidstext'>Abstract Traingle</div>
+                        <div className='homehotbidstext1'>Abstract Traingle</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>0.90</div>
@@ -109,7 +110,7 @@ const Home = () =>{
                     </div>
                     <div className='homehotbirdcardcards4'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting4} /></div>
-                        <div className='homehotbidstext'>White Line Grafiti</div>
+                        <div className='homehotbidstext1'>White Line Grafiti</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>0.09</div>
@@ -122,7 +123,7 @@ const Home = () =>{
                 <div className='homehotbirdscard2'>
                     <div className='homehotbirdcardcards1'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting5} /></div>
-                        <div className='homehotbidstext'>Abstract Smoke Red Blue</div>
+                        <div className='homehotbidstext1'>Abstract Smoke Red Blue</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>1.25</div>
@@ -133,7 +134,7 @@ const Home = () =>{
                     </div>
                     <div className='homehotbirdcardcards2'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting8} /></div>
-                        <div className='homehotbidstext'>Mountain Landscape</div>
+                        <div className='homehotbidstext1'>Mountain Landscape</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>0.20</div>
@@ -144,7 +145,7 @@ const Home = () =>{
                     </div>
                     <div className='homehotbirdcardcards3'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting7} /></div>
-                        <div className='homehotbidstext'>Paint Color on Wall</div>
+                        <div className='homehotbidstext1'>Paint Color on Wall</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>0.00</div>
@@ -155,7 +156,7 @@ const Home = () =>{
                     </div>
                     <div className='homehotbirdcardcards4'>
                         <div className='homehotbidsimage'><img className='hotbidsimagepic' src={Painting6} /></div>
-                        <div className='homehotbidstext'>Abstract Patern</div>
+                        <div className='homehotbidstext1'>Abstract Patern</div>
                         <div className='hotbidcardbottomsection'>
                             <div className='hotbiddatandtext'>
                                 <div className='hotbiddata'>0.87</div>
@@ -168,6 +169,7 @@ const Home = () =>{
             </div>
             <div className='loadbtndiv'><button className='loadbutton'><NavLink className='link buttona' to="/Profile">Load More</NavLink></button></div>
             <div className='loadbtndivb'><button className='loadbutton'><NavLink className='link buttonb' to="/CreateItem">Load More</NavLink></button></div>
+            <div className='footerhomepg'><Footer /></div>
         </div>)
 }
 
