@@ -1,5 +1,5 @@
 .itempage{
-    height: 120vh;
+    height: 150vh;
     width:100%;
     display: flex;
     /* background-color: aqua; */
@@ -13,6 +13,7 @@
     /* position: absolute; */
     /* margin-top: 20vh; */
     height: 90vh;
+    margin-top: 10vh;
     width: 50%;
     border-right:2px solid #E1EAE3;
 }
@@ -32,6 +33,7 @@
     /* position: absolute; */
     /* margin-top: 20vh; */
     height: 90vh;
+    margin-top: 10vh;
     width: 50%;
     /* background-color: aquamarine; */
 }
@@ -198,5 +200,5 @@
 .footeritempg{
     position: absolute;
     width: 100%;
-    top: 90vh;
+    top: 100vh;
 }
