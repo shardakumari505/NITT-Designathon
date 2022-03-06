@@ -3,10 +3,12 @@ import './CreateItem.css';
 import Image from './Image.png';
 import Footer from './Footer.js';
 import Navbar from './Navbar.js';
+import NavbarMobile from './NavbarMobile.js'
 
 const CreateItem =() =>{
     return(<div className='createitempage'>
             <div className='navcreateitem'><Navbar /></div>
+            <div className='navmobile'><NavbarMobile /></div>
             <div className='createiteminside'>
                 <div className='createtitle'>Create New Item</div>
                 <div className='uploadfileitem'>

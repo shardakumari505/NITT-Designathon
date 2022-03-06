@@ -18,12 +18,14 @@ import Painting8 from './painting8.jpg';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer.js';
 import Navbar from './Navbar.js';
+import NavbarMobile from './NavbarMobile.js'
 import Tick from './tick.png';
 
 
 const Home = () =>{
     return(<div className='homepage'>
             <div className='navbarhome'><Navbar /></div>
+            <div className='navmobile'><NavbarMobile /></div>
             <div className='hometopcard'>
                 <div className='hometopellipse'></div>
                 <div className='homebottomellipse'></div>
@@ -106,7 +108,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>0.85</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartwhite} /> 66</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartwhite} /> 66</div>
                         </div>
                     </div>
                     <div className='homehotbirdcardcards2'>
@@ -117,7 +119,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>0.52</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartblack} /> 63</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartblack} /> 63</div>
                         </div>
                     </div>
                     <div className='homehotbirdcardcards3'>
@@ -128,7 +130,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>0.90</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartwhite} /> 71</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartwhite} /> 71</div>
                         </div>
                     </div>
                     <div className='homehotbirdcardcards4'>
@@ -139,7 +141,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>0.09</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartwhite} /> 22</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartwhite} /> 22</div>
                         </div>
                     </div>
                 </div>
@@ -152,7 +154,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>1.25</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartblack} /> 92</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartblack} /> 92</div>
                         </div>
                     </div>
                     <div className='homehotbirdcardcards2'>
@@ -163,7 +165,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>0.20</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartwhite} /> 25</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartwhite} /> 25</div>
                         </div>
                     </div>
                     <div className='homehotbirdcardcards3'>
@@ -174,7 +176,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>0.00</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartblack} /> 55</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartblack} /> 55</div>
                         </div>
                     </div>
                     <div className='homehotbirdcardcards4'>
@@ -185,7 +187,7 @@ const Home = () =>{
                                 <div className='hotbiddata'>0.87</div>
                                 <div className='hotbiddatatext'>ETH</div>
                             </div>
-                            <div className='hotbidicon'><img className='logoimg' src={Heartwhite} /> 82</div>
+                            <div className='hotbidicon'><img className='logoimghme' src={Heartwhite} /> 82</div>
                         </div>
                     </div>
                 </div>

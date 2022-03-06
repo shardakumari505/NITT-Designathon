@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 import Footer from './Footer.js';
 import Navbar from './Navbar.js';
 import Modal from './Modal';
+import NavbarMobile from './NavbarMobile.js'
 
 const BUTTON_WRAPPER_STYLES ={
     position:'relative',
@@ -19,6 +20,7 @@ const Item =() =>{
     const [isClose, setIsClose] = useState(true)
     return(<div className='itempage'>
         <div className='navitem'><Navbar /></div>
+        <div className='navmobile'><NavbarMobile /></div>
             <div className='itemleft'>
                 <div className='leftimgdiv'><img className='leftimg' src={Painting6} /></div>
             </div>
@@ -32,7 +34,7 @@ const Item =() =>{
                         <div className=''>From</div>
                         <div className='prodata'>4.5 ETH</div>
                         <div className='dot'></div>
-                        <div className=''>20 of 25 available</div>
+                        <div className='data20'>20 of 25 available</div>
                     </div>
                     <div className='creator'>Creator</div>
                     <div className='profilecontnt'>

@@ -16,10 +16,12 @@ import Painting8 from './painting8.jpg';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer.js';
 import Navbar from './Navbar.js';
+import NavbarMobile from './NavbarMobile.js'
 
 const Profile =() =>{
     return(<div className='profilepage'>
             <div className='navprofile'><Navbar /></div>
+            <div className='navmobile'><NavbarMobile /></div>
             <div className='profiletopbackground'><img className='profilebgimg' src={Painting3} /></div>
             <div className='profiletopimage'><img className='profileimageimg' src={Img1} /></div>
             <div className='profileoptions'>

@@ -1,5 +1,135 @@
 @media(min-width:480px) and (max-width:868px){
-    
+    .createitempage{
+        height: 150vh;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .navcreateitem{
+        position: fixed;
+        width: 100%;
+        z-index: 998;
+        display: none;
+    }
+    .createiteminside{
+        height: 120vh;
+        width: 60%;
+        margin-left: 20%;
+        display: grid;
+    }
+    .createtitle{
+        margin-top: 12vh;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .uploaditem{
+        display: grid;
+    }
+    .uploadfiletext{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .uploadfilenext{
+        height: 30vh;
+        width: 50vw;
+        margin-top: 3vh;
+        border:2px dashed #A1A1A1;
+        border-radius: 5px;
+        display: grid;
+    }
+    .jpgtxt{
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .imageicondiv{
+        height: 5vh;
+        width: 5vw;
+    }
+    .imageicon{
+        height: 5vh;
+        width: 5vw;
+        margin-left: 22.5vw;
+        object-fit: contain;
+        /* background-color: aqua; */
+    }
+    .drag{
+        text-align: center;
+        margin-bottom: -4vh;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    .dragnext{
+        display: flex;
+        /* background-color: #A1A1A1; */
+        margin-left: 17vw;
+    }
+    .or{
+        margin-right: 1vw;
+        font-size: 0.8rem;
+    }
+    .browse{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .nametitle{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .namenext{
+        height: 5vh;
+        width: 50vw;
+        margin-top: 3vh;
+        border:1px solid #888888;
+        border-radius: 5px;
+    }
+    .desctitle{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .descriptionnext{
+        height: 15vh;
+        width: 50vw;
+        margin-top: 3vh;
+        border:1px solid #888888;
+        border-radius: 5px;
+    }
+    .pricetitle{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .pricenext{
+        height: 5vh;
+        width: 50vw;
+        margin-top: 3vh;
+        border:1px solid #888888;
+        border-radius: 5px;
+    }
+    .pricenexttext{
+        margin-left: 1vw;
+    }
+    .create{
+        position: absolute;
+        top: 120vh;
+        min-height: 5vh;
+        min-width: 50%;
+        /* background-color: aqua; */
+    }
+    .createbutton{
+        position: absolute;
+        right: 0px;
+        min-height: 5vh;
+        min-width: 8vw;
+        border-radius: 10px;
+        border: none;
+        font-size: 0.8rem;
+        color: white;
+        background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+    }
+    .footercreatepg{
+        position: absolute;
+        width: 100%;
+        top: 150vh;
+    }
 }
 @media(min-width:869px) and (max-width:1024px){
     .createitempage{
