@@ -122,7 +122,6 @@ const Profile =() =>{
                 </div>
             </div>
             <div className='loadbtndivc'><button className='loadbutton'><NavLink className='link buttonc' to="/Item">Load More</NavLink></button></div>
-            <div className='loadbtndivd'><button className='loadbutton'><NavLink className='link buttond' to="/Navbar">Load More</NavLink></button></div>
             <div className='footerprofilepg'><Footer /></div>
         </div>)
 }

@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () =>{
     return(<div className='navbarpg'>
         <div className='navbarpgtop'>
-            <div className=''><img className='logoimg' src={Light} /></div>
+            <div className=''><img className='' src={Light} /></div>
             <div className='navsearch'><img className='searchicon1' src={Search} /><input className='searchbarexplore' type='text' placeholder='Search Item Here' /></div>
             <div className='explorenav'>Explore</div>
             <div className='exploremy'><NavLink className='myitemsnav' to="/Profile">My Items</NavLink></div>

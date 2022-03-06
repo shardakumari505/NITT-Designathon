@@ -11,7 +11,7 @@ const Footer =() =>{
         <div className='ftpg'>
             <div className='footerpageinside'>
                 <div className='footerleft'>                    
-                    <div className='logo'><img className='logoimg' src={Light1} /></div>                    
+                    <div className=''><img className='' src={Light1} /></div>                    
                     <div className=''>Get the latest Updates</div>
                     <div className='email'>
                         <div className=''><input className='emailnext' type='text' placeholder='Your Email' /></div>
