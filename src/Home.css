@@ -348,6 +348,9 @@
         width: 100%;
         z-index: 998;
     }
+    .navhmemobile{
+        display: none;
+    }
     .homepage{
         background-color: #FFFFFF;
         height: 250vh;
@@ -688,6 +691,9 @@
         position: fixed;
         width: 100%;
         z-index: 998;
+    }
+    .navhmemobile{
+        display: none;
     }
     .homepage{
         background-color: #FFFFFF;

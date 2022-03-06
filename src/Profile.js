@@ -21,7 +21,7 @@ import NavbarMobile from './NavbarMobile.js'
 const Profile =() =>{
     return(<div className='profilepage'>
             <div className='navprofile'><Navbar /></div>
-            <div className='navmobile'><NavbarMobile /></div>
+            <div className='navpromobile'><NavbarMobile /></div>
             <div className='profiletopbackground'><img className='profilebgimg' src={Painting3} /></div>
             <div className='profiletopimage'><img className='profileimageimg' src={Img1} /></div>
             <div className='profileoptions'>

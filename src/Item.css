@@ -216,6 +216,9 @@
         width: 100%;
         z-index: 998;
     }
+    .navitemmobile{
+        display: none;
+    }
     .itemleft{
         /* position: absolute; */
         /* margin-top: 20vh; */
@@ -418,6 +421,9 @@
         position: fixed;
         width: 100%;
         z-index: 998;
+    }
+    .navitemmobile{
+        display: none;
     }
     .itemleft{
         /* position: absolute; */

@@ -259,6 +259,9 @@
         width: 100%;
         z-index: 998;
     }
+    .navpromobile{
+        display: none;
+    }
     .profiletopbackground{
         /* position: absolute;
         top: 0px; */
@@ -507,6 +510,9 @@
         position: fixed;
         width: 100%;
         z-index: 998;
+    }
+    .navpromobile{
+        display: none;
     }
     .profiletopbackground{
         /* position: absolute;

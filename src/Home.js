@@ -25,7 +25,7 @@ import Tick from './tick.png';
 const Home = () =>{
     return(<div className='homepage'>
             <div className='navbarhome'><Navbar /></div>
-            <div className='navmobile'><NavbarMobile /></div>
+            <div className='navhmemobile'><NavbarMobile /></div>
             <div className='hometopcard'>
                 <div className='hometopellipse'></div>
                 <div className='homebottomellipse'></div>

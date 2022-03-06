@@ -20,7 +20,7 @@ const Item =() =>{
     const [isClose, setIsClose] = useState(true)
     return(<div className='itempage'>
         <div className='navitem'><Navbar /></div>
-        <div className='navmobile'><NavbarMobile /></div>
+        <div className='navitemmobile'><NavbarMobile /></div>
             <div className='itemleft'>
                 <div className='leftimgdiv'><img className='leftimg' src={Painting6} /></div>
             </div>
